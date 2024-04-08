@@ -20,7 +20,17 @@ html {
   background: var(--light-greyish-blue);
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .card {
   width: 87.2vw;
-  height: 136.533vw;
+  height: 51.2rem;
+  border-radius: 1rem;
+  background-color: white;
+  filter: drop-shadow(0 40px 40px rgba(201, 213, 225, 50.35%));
 }
