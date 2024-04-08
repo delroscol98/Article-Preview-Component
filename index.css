@@ -108,7 +108,7 @@ body {
 @media screen and (min-width: 768px) {
   .card {
     width: 50.694vw;
-    height: 28rem;
+    height: 19.444vw;
     flex-direction: row;
   }
 
@@ -123,7 +123,7 @@ body {
   }
 
   .card_text {
-    padding: 3.2rem 2.778vw 2.8rem;
+    padding: 2.222vw 2.778vw 1.944vw;
   }
 
   .card_text h1 {
@@ -132,5 +132,28 @@ body {
 
   .card_text p {
     font-size: 0.903vw;
+    margin: 0.833vw 0 1.389vw;
+  }
+
+  .author {
+    height: 2.778vw;
+  }
+
+  .author_container {
+    width: 11.944vw;
+  }
+
+  .author_container img {
+    width: 2.778vw;
+    height: 2.778vw;
+  }
+
+  .author_details > p {
+    margin: 0;
+  }
+
+  .author button {
+    height: 2.222vw;
+    width: 2.222vw;
   }
 }
