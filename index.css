@@ -61,6 +61,15 @@ body {
   color: var(--very-dark-greyish-blue);
 }
 
+.card_text p {
+  font-size: 3.467vw;
+  line-height: 1.538;
+  font-weight: 500;
+  letter-spacing: 0.12px;
+  color: var(--desaturated-dark-blue);
+  margin: 1.2rem 0 3.2rem;
+}
+
 @media screen and (min-width: 768px) {
   .card {
     width: 50.694vw;
@@ -79,10 +88,14 @@ body {
   }
 
   .card_text {
-    padding: 3.2rem 2.778vw;
+    padding: 3.2rem 2.778vw 2.8rem;
   }
 
   .card_text h1 {
     font-size: 1.389vw;
+  }
+
+  .card_text p {
+    font-size: 0.903vw;
   }
 }
