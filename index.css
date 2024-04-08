@@ -29,7 +29,7 @@ body {
 }
 
 .card {
-  width: 87.2vw;
+  width: 32.7rem;
   height: 51.2rem;
   border-radius: 1rem;
   background-color: white;
@@ -51,18 +51,18 @@ body {
 }
 
 .card_text {
-  padding: 3.6rem 8.533vw 2rem;
+  padding: 3.6rem 3.2rem 2rem;
 }
 
 .card_text h1 {
-  font-size: 4.267vw;
+  font-size: 1.6rem;
   line-height: 1.5;
   letter-spacing: 0.2px;
   color: var(--very-dark-greyish-blue);
 }
 
 .card_text p {
-  font-size: 3.467vw;
+  font-size: 1.3rem;
   line-height: 1.538;
   font-weight: 500;
   letter-spacing: 0.12px;
@@ -71,20 +71,20 @@ body {
 }
 
 .author {
-  height: 10.667vw;
+  height: 4rem;
   display: flex;
   justify-content: space-between;
 }
 
 .author_container {
-  width: 45.867vw;
+  width: 17.2rem;
   display: flex;
   justify-content: space-between;
 }
 
 .author_container img {
-  width: 10.667vw;
-  height: 10.667vw;
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
 }
 
@@ -98,11 +98,29 @@ body {
 }
 
 .author button {
-  width: 8.53vw;
-  height: 8.53vw;
+  width: 3.2rem;
+  height: 3.2rem;
   border-radius: 50%;
   border: none;
   align-self: center;
+}
+
+@media screen and (width < 375px) {
+  .card {
+    width: 87.2vw;
+  }
+
+  .card_text {
+    padding: 3.6rem 8.533vw 2rem;
+  }
+
+  .card_text h1 {
+    font-size: 4.267vw;
+  }
+
+  .card_text p {
+    font-size: 3.467vw;
+  }
 }
 
 @media screen and (min-width: 768px) {
