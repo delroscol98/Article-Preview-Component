@@ -145,6 +145,10 @@ body {
   height: 2rem;
 }
 
+.hidden {
+  display: none;
+}
+
 @media screen and (width < 375px) {
   .card {
     width: 87.2vw;
