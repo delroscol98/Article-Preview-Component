@@ -30,7 +30,6 @@ body {
 
 .card {
   width: 32.7rem;
-  height: 51.2rem;
   border-radius: 1rem;
   background-color: white;
   filter: drop-shadow(0 40px 40px rgba(201, 213, 225, 50.35%));
@@ -88,6 +87,12 @@ body {
   border-radius: 50%;
 }
 
+.author_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .author_details .author_details-name {
   font-weight: 700;
   color: var(--very-dark-greyish-blue);
@@ -120,6 +125,10 @@ body {
 
   .card_text p {
     font-size: 3.467vw;
+  }
+
+  .author_container {
+    width: 45.867vw;
   }
 }
 
