@@ -102,12 +102,47 @@ body {
   margin: 0;
 }
 
-.author button {
+.share-button {
   width: 3.2rem;
   height: 3.2rem;
   border-radius: 50%;
   border: none;
   align-self: center;
+}
+
+.share {
+  background-color: var(--very-dark-greyish-blue);
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.2rem 3.2rem;
+}
+
+.share_icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 46.667vw;
+}
+
+.share_icons h3 {
+  color: var(--desaturated-dark-blue);
+  font-weight: 500;
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+}
+
+.share_icons-container {
+  width: 9.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share_icons-container img {
+  width: 2rem;
+  height: 2rem;
 }
 
 @media screen and (width < 375px) {
