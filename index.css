@@ -227,6 +227,45 @@ body {
     width: 2.222vw;
   }
 
+  .share {
+    width: 17.222vw;
+    border-radius: 1rem;
+    padding: 1.25vw 2.569vw;
+    right: -4.722vw;
+    transform: translateY(-250%);
+  }
+
+  .share::after {
+    content: "";
+    border: 1.5rem solid transparent;
+    border-top-color: var(--very-dark-greyish-blue);
+    position: absolute;
+    left: 50%;
+    top: 99%;
+    transform: translateX(-50%);
+  }
+
+  .share_icons {
+    width: 12.153vw;
+  }
+
+  .share_icons h3 {
+    font-size: 0.903vw;
+  }
+
+  .share_icons-container {
+    width: 6.389vw;
+  }
+
+  .share_icons-container img {
+    width: 1.389vw;
+    height: 1.389vw;
+  }
+
+  .share > .share-button {
+    display: none;
+  }
+
   .share-button img {
     width: 1.042vw;
     height: 0.903vw;
